@@ -28,6 +28,8 @@ The main goal is to demonstrate how AI can combine document retrieval with natur
 
 5. **Conversation Memory –** Previous queries are stored so the chatbot can understand follow-up questions (e.g., “What about debt?” after a budget question).
 
+![PDF-LangChain](https://github.com/user-attachments/assets/11b0331e-8d68-430e-b3b8-aeaaa72d107b)
+
 
 # 🛠️ Project Structure
 
