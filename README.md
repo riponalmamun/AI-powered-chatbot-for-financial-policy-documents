@@ -5,6 +5,17 @@ This project is an AI-powered chatbot that can answer questions from documents, 
 
 The main goal is to demonstrate how AI can combine document retrieval with natural language processing to provide clear, context-aware responses.
 
+# 🚀 Features
+
+1. Conversational chatbot for financial policy queries
+
+2. Built using Python + Streamlit
+
+3. Easy to deploy locally or on cloud platforms
+
+4. Customizable Q&A system
+
+
 # ⚙️ How It Works
 
 1. **Extract Data –** The document (PDF) is parsed and split into smaller sections. Each section is stored with metadata (page number/section).
@@ -18,28 +29,16 @@ The main goal is to demonstrate how AI can combine document retrieval with natur
 5. **Conversation Memory –** Previous queries are stored so the chatbot can understand follow-up questions (e.g., “What about debt?” after a budget question).
 
 
+# 🛠️ Project Structure
+
+├── **app.py**                 # Main Streamlit application
+
+├── **requirements.txt**      # List of dependencies
+
+├── **.env**                  # Environment variables (API keys, configs)
+
+├── **README.md**              # Project documentation
+
+
 # 📦 Dependencies and Installation
-Requirements
-🌟 Dependencies
 
-**Python 3.10+
-
-Streamlit
-
-LangChain
-
-FAISS
-
-PyPDF2
-
-Transformers
-
-python-dotenv**
-
-**Libraries:**
-pip install langchain sentence-transformers faiss-cpu chromadb pdfplumber
-
-
-📖 References
-
-LangChain Documentation
